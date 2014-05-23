@@ -9,7 +9,7 @@ html{
 }
 
 body{
-	font-size: 22px;
+	font-size: 18px;
 	font-family: Alegreya;
 	font-weight: 200;
 	
@@ -29,7 +29,7 @@ a {
   border: medium none;
 	text-decoration: none;
   color: #dd4814;
-  background: linear-gradient(#dd4814, #dd4814) no-repeat scroll center bottom / 100% 2px transparent;
+  background: linear-gradient(#dd4814, #dd4814) no-repeat scroll center bottom / 100% 1px transparent;
   transition: background-size 0.2s ease 0s, color 0.1s ease 0.1s;
 }
 
@@ -253,6 +253,13 @@ select{
 	border-bottom: 3px solid orange;
 }
 
+/* Attribution */
+.attribution{
+	font:.9em Alegreya;
+	color: #777;
+	text-align:center;
+}
+
 /* FONTS */
 
 @font-face {
@@ -286,10 +293,20 @@ select{
 }
 
 @media print{
+	
+			body{
+				font-size:14px;
+			}
+	
        a:after{content:" (" attr(href) ") ";font-size:0.8em;font-weight:normal;}
 }
 
 @media all and (min-width:660px){
+	
+	body{
+		font-size:22px;
+	}
+	
 	.submit-button{
 		float:right;
 		width: auto;
