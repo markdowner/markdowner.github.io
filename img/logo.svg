@@ -42,8 +42,8 @@
      id="namedview3090"
      showgrid="false"
      inkscape:zoom="3.9706765"
-     inkscape:cx="90.096519"
-     inkscape:cy="74.44875"
+     inkscape:cx="85.815133"
+     inkscape:cy="64.3749"
      inkscape:window-x="0"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
@@ -61,11 +61,23 @@
      d="M 390.74658,98.59589 V 66.226027 h 9.52055 l 9.52054,11.900685 9.52055,-11.900685 h 9.52055 V 98.59589 h -9.52055 V 80.030822 l -9.52055,11.900685 -9.52054,-11.900685 V 98.59589 z m 59.50342,0 -14.28082,-15.708904 h 9.52055 V 66.226027 h 9.52055 v 16.660959 h 9.52054 z"
      id="path3088-3"
      style="fill:#ffffff" />
+  <rect
+     style="color:#000000;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.58529598000000005;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+     id="rect2990"
+     width="128.4147"
+     height="128.4147"
+     x="28.75312"
+     y="-0.45734832"
+     ry="3.8878245"
+     inkscape:export-filename="/var/www/markdowner.github.io/img/apple-touch-icon.png"
+     inkscape:export-xdpi="90.41021"
+     inkscape:export-ydpi="90.41021" />
   <g
      id="g3162"
      inkscape:export-filename="/var/www/MDH/img/logo.png"
      inkscape:export-xdpi="152.9944"
-     inkscape:export-ydpi="152.9944">
+     inkscape:export-ydpi="152.9944"
+     transform="matrix(1.1680779,0,0,1.1680779,-27.605576,-9.8417852)">
     <g
        style="fill:#000000"
        transform="matrix(0.35895472,0,0,0.35895472,62.970901,38.853271)"
