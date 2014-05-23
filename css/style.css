@@ -141,10 +141,15 @@ hr:after {
 .content-input{
 	padding:3%;
 	width: 100%;
+	max-width: 100%;
 	height: 200px;
-	font-family: Calendas Plus, Linux Libertine, serif;
+	font-family: Alegreya, serif;
 	font-size: 1em;
 	border: 4px double #ccc !important;
+}
+
+.content-input:focus{
+	outline:1px orange;
 }
 
 .settings-bar{
@@ -208,28 +213,32 @@ select{
 	font-family: Calendas Plus, Linux Libertine, serif;
 }
 
-/* BORING */
+/* everyday */
 
-.content.boring{
+.content.everyday{
 	font-family: Roboto, sans-serif;
 	font-weight: 300;
 }
 
-.boring h1, .boring h2, .boring h3, .boring h4, .boring h5, .boring h6{
+.everyday h1, .everyday h2, .everyday h3, .everyday h4, .everyday h5, .everyday h6{
 	text-transform: uppercase;
 	font-weight: 900;
 	letter-spacing: .02em;
 }
 
-/* Everyday */
+/* ACADEMIC */
 
-.content.everyday{
-	font-family: Georgia, Charter, serif;
+.content.academic{
+	font-family: Latin Modern Roman, Georgia;
+	padding:10%;
+	padding-top: 0;;
+	font-size:15px;
 }
 
-.everyday h1, .everyday h2, .everyday h3, .everyday h4, .everyday h5, .everyday h6{
-
+.academic h1, .academic h2, .academic h3, .academic h4, .academic h5, .academic h6{
+	
 }
+
 
 /* JOLLY*/
 
