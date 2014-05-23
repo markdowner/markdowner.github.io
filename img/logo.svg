@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="208"
+   height="128"
+   viewBox="0 0 208 128"
+   id="svg3084"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="logo.svg">
+  <metadata
+     id="metadata3094">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3092" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="744"
+     id="namedview3090"
+     showgrid="false"
+     inkscape:zoom="3.9706765"
+     inkscape:cx="90.096519"
+     inkscape:cy="74.44875"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3084" />
+  <rect
+     width="94.253426"
+     height="56.171234"
+     x="378.84589"
+     y="54.325344"
+     ry="4.7602739"
+     id="rect3086-8"
+     style="fill:#000000;stroke:#000000;stroke-width:4.76027393" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 390.74658,98.59589 V 66.226027 h 9.52055 l 9.52054,11.900685 9.52055,-11.900685 h 9.52055 V 98.59589 h -9.52055 V 80.030822 l -9.52055,11.900685 -9.52054,-11.900685 V 98.59589 z m 59.50342,0 -14.28082,-15.708904 h 9.52055 V 66.226027 h 9.52055 v 16.660959 h 9.52054 z"
+     id="path3088-3"
+     style="fill:#ffffff" />
+  <g
+     id="g3162"
+     inkscape:export-filename="/var/www/MDH/img/logo.png"
+     inkscape:export-xdpi="152.9944"
+     inkscape:export-ydpi="152.9944">
+    <g
+       style="fill:#000000"
+       transform="matrix(0.35895472,0,0,0.35895472,62.970901,38.853271)"
+       id="g3129">
+      <text
+         xml:space="preserve"
+         style="font-size:47.40828705px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Calendas Plus;-inkscape-font-specification:Calendas Plus"
+         x="-22.359934"
+         y="177.89578"
+         id="text3096"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan3098"
+           x="-22.359934"
+           y="177.89578"
+           style="font-size:316.05526733px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:Calendas Plus;-inkscape-font-specification:Calendas Plus Bold">H</tspan></text>
+    </g>
+    <g
+       transform="matrix(0.37211741,0,0,0.37211741,29.312668,35.812591)"
+       id="g3144">
+      <rect
+         style="fill:#000000;stroke:#000000;stroke-width:4.1801281"
+         id="rect3086-2"
+         ry="3.179534"
+         y="50.473629"
+         x="144.19963"
+         height="37.518501"
+         width="108.81303" />
+      <path
+         style="fill:#ffffff"
+         id="path3088-4"
+         d="m 173.35893,80.309072 v -22.1524 h 6.5154 l 6.51541,8.14427 6.51542,-8.14427 h 6.5154 v 22.1524 h -6.5154 v -12.70505 l -6.51542,8.14426 -6.51541,-8.14426 v 12.70505 z m 40.72131,0 -9.77311,-10.75043 h 6.5154 v -11.40197 h 6.51541 v 11.40197 h 6.51542 z"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>

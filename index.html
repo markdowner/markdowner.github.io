@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Markdown, Humanized</title>
+	<link rel="stylesheet" href="css/vendor/typeplate.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="favicon.png">
+	
+	<link rel="stylesheet" href="//brick.a.ssl.fastly.net/Alegreya:400,400i,700,700i">
+
+</head>
+<body>
+<div class="container">
+
+<header class="site-header ui">
+	<a href="http://md-h.github.io">
+		<h1 class="beta title">Markdown<br>
+		<img src="img/logo.png" alt="Markdown Humanized Logo"><br>
+		 Humanized</h1>
+	</a>
+	<h3 class="subtitle"><em>A Pleasant Way to Print <span class="amp">&amp;</span> View Markdown</em>			</h3>
+	<hr style="margin-top: 40px;"><br>
+</header>
+
+
+
+<div class="content" id="content">
+<iframe name="myiframe" style="display: none;"></iframe>
+	<form action="#" onsubmit="markdownHumanize(); return false" target="myiframe">
+		<textarea class="content-input" id="content-input" placeholder="Paste your text here." required></textarea><br clear="all">
+		
+		<div class="settings-bar">
+			<label class="custom-select">I’m writing for: 
+			<select name="tone" id="tone-select">
+				<option value="classy">Scholars</option>
+				<option value="everyday">Regular People</option>
+				<option value="boring">Boring People</option>
+				<option value="jolly">Children</option>
+				<option value="hipster">Hipsters</option>
+			</select>
+			</label>
+
+		<button class="submit-button" type="submit">Humanize &raquo;</button>
+		</div>
+	</form>
+
+	</div> <!-- END CONTENT -->
+		<br clear="all">
+		<footer class="site-footer ui center-text">
+		
+		<p><hr style="margin-bottom:0;margin-top:0;"><br>Built with ☕ by <a href="http://omphalosskeptic.github.io">Omphalosskeptic </a> ( <a href="http://twitter.com/omphalosskeptic">@omphalosskeptic</a>  on Twitter). <br> Handsome typography made possible by <a href="http://typeplate.com">Typeplate</a> <span class="amp">&amp;</span> <a href="http://brick.im">Brick Webfonts.</a></p>
+		</footer>
+		
+</div> <!-- END CONTAINER -->
+
+<script src="js/vendor/marked.min.js"></script>
+<script type="text/javascript" src="js/humanize.js"></script>
+
+</body>
+</html>

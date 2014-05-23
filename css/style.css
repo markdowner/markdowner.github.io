@@ -1,0 +1,302 @@
+*, *:before, *:after{
+	-webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box;    
+  box-sizing: border-box; 
+}
+
+html{
+	font-size: 100%;
+}
+
+body{
+	font-size: 22px;
+	font-family: Alegreya;
+	font-weight: 200;
+	
+	-moz-font-feature-settings: "liga=1", "dlig=1", "hlig=1";
+	-ms-font-feature-settings: "liga", "dlig", "hlig";
+	-webkit-font-feature-settings: "liga", "dlig", "hlig";
+	-o-font-feature-settings: "liga", "dlig", "hlig";
+	font-feature-settings: "liga", "dlig", "hlig";
+}
+
+.container{
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+a {
+  border: medium none;
+	text-decoration: none;
+  color: #dd4814;
+  background: linear-gradient(#dd4814, #dd4814) no-repeat scroll center bottom / 100% 2px transparent;
+  transition: background-size 0.2s ease 0s, color 0.1s ease 0.1s;
+}
+
+a:hover {
+  color: white;
+  background-size: 100% 100%;
+}
+
+h1,h2,h3,h4,h5,h6{
+	margin-bottom: 2%;
+	padding-bottom: 1%;
+}
+
+p{
+	max-width: 750px;
+}
+
+b, strong{
+	font-weight: 700;
+}
+
+em, i{
+	font-style: italic;
+	font-weight: inherit;
+}
+
+blockquote{
+	border-left: 5px solid #ccc;
+	font-style: italic;
+	padding-left: 3%;
+}
+
+hr{
+	border: none;
+	border-top: medium double #eee;
+	color: #333;
+	width: 40%;
+	text-align: center;
+}
+
+hr:after {
+	content: "◉";
+	display: inline-block;
+	position: relative; 
+	top: -1em;  
+	color:#ccc;
+	font-size: 1em;
+	padding: 0 0.25em;
+	background: white;
+}
+
+/*HELPERS*/
+
+.border-box{
+	-webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box;    
+  box-sizing: border-box; 
+}
+
+.inline{
+	display: inline;
+}
+
+
+.center-text{
+	text-align: center;
+}
+
+.m0a{
+	margin:0 auto;
+}
+
+.sc{
+	-moz-font-feature-settings: "smcp=1;
+	-ms-font-feature-settings: "smcp";
+	-webkit-font-feature-settings: "smcp";
+	-o-font-feature-settings: "smcp";
+	font-feature-settings: "smcp";
+}
+
+/* Branding */
+
+.site-header{
+	margin-top: 20px;
+	width: 100%;
+	text-align: center;
+}
+
+.site-header img{
+	width: 150px;
+	margin: 0 auto;
+}
+
+.site-header .amp{
+	display: block;
+}
+
+.title{
+	font-family: Bebas Neue;
+	font-weight: 900;
+}
+
+.subtitle{
+	font-weight: 200;
+}
+
+/* CONTENT INPUT */
+
+.content-input{
+	padding:3%;
+	width: 100%;
+	height: 200px;
+	font-family: Calendas Plus, Linux Libertine, serif;
+	font-size: 1em;
+	border: 4px double #ccc !important;
+}
+
+.settings-bar{
+	min-height: 60px;
+	line-height: 60px;
+}
+
+select{
+	font-size:.8em;
+	font-family: inherit;
+}
+    
+
+.submit-button {
+	z-index: 100;
+  border: 2px solid #dd4814;
+	background-color: orange;
+	color:white;
+	float:left;
+	text-transform: uppercase;
+	padding: 7px 15px;
+	font: 900 1.4em Alegreya;
+	letter-spacing: .02em;
+	border-radius:2px;
+	cursor: pointer;
+	width: 100%;
+	
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0, #FF8000),
+		color-stop(0.66, #FA6603)
+	);
+	background-image: -o-linear-gradient(bottom, #FF8000 0%, #FA6603 66%);
+	background-image: -moz-linear-gradient(bottom, #FF8000 0%, #FA6603 66%);
+	background-image: -webkit-linear-gradient(bottom, #FF8000 0%, #FA6603 66%);
+	background-image: -ms-linear-gradient(bottom, #FF8000 0%, #FA6603 66%);
+	background-image: linear-gradient(to bottom, #FF8000 0%, #FA6603 66%);
+}
+
+ .submit-button:hover, .submit-button:active {
+	background-image:none;
+	background-color: #dd4814;
+	box-shadow: inset 0 0 7px black;
+}
+
+
+/* CONTENT STYLES */
+
+.content{
+	max-width: 750px;
+	margin: 0 auto;
+}
+
+.content p:first-of-type{
+	color:black;
+}
+/* CLASSY */
+.content.classy{
+	font-family: Calendas Plus, Linux Libertine, serif;
+}
+
+/* BORING */
+
+.content.boring{
+	font-family: Roboto, sans-serif;
+	font-weight: 300;
+}
+
+.boring h1, .boring h2, .boring h3, .boring h4, .boring h5, .boring h6{
+	text-transform: uppercase;
+	font-weight: 900;
+	letter-spacing: .02em;
+}
+
+/* Everyday */
+
+.content.everyday{
+	font-family: Georgia, Charter, serif;
+}
+
+.everyday h1, .everyday h2, .everyday h3, .everyday h4, .everyday h5, .everyday h6{
+
+}
+
+/* JOLLY*/
+
+.content.jolly{
+	font-family: Comic Neue, Ubuntu;
+	font-weight: 300;
+}
+
+.jolly h1, .jolly h2, .jolly h3, .jolly h4, .jolly h5, .jolly h6{
+	font-weight: 700;
+}
+
+/* Hip */
+
+.content.hipster{
+	font-family: Alegreya;
+}
+
+.hipster h1, .hipster h2, .hipster h3, .hipster h4, .hipster h5, .hipster h6{
+	font-family: Bebas Neue;
+	border-bottom: 3px solid orange;
+}
+
+/* FONTS */
+
+@font-face {
+	font-family: 'Bebas Neue';
+	src: url('../fonts/bebasneue_regular-webfont.eot');
+	src: url('../fonts/bebasneue_regular-webfont.eot?#iefix') format('embedded-opentype'),
+			 url('../fonts/bebasneue_regular-webfont.woff') format('woff'),
+			 url('../fonts/bebasneue_regular-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Bebas Neue';
+	src: url('../fonts/bebasneue_light-webfont.eot');
+	src: url('../fonts/bebasneue_light-webfont.eot?#iefix') format('embedded-opentype'),
+			 url('../fonts/bebasneue_light-webfont.woff') format('woff'),
+			 url('../fonts/bebasneue_light-webfont.ttf') format('truetype');
+	font-weight: 200;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Bebas Neue';
+	src: url('../fonts/bebasneue_bold-webfont.eot');
+	src: url('../fonts/bebasneue_bold-webfont.eot?#iefix') format('embedded-opentype'),
+			 url('../fonts/bebasneue_bold-webfont.woff') format('woff'),
+			 url('../fonts/bebasneue_bold-webfont.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@media print{
+       a:after{content:" (" attr(href) ") ";font-size:0.8em;font-weight:normal;}
+}
+
+@media all and (min-width:660px){
+	.submit-button{
+		float:right;
+		width: auto;
+	}
+	
+	.site-header .amp{
+		display: inline;
+	}
+	
+}
