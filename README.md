@@ -1,5 +1,5 @@
 Markdown, Humanized
-==============
+===================
 
 **A More Pleasant Way to Print & View Markdown.**
 
@@ -14,3 +14,5 @@ This site is an afternoon hack to fill a need of my own: the ability to print an
 [ ] Input a gist id to get markdown from (or append gist id to url)    
 [ ] Upload markdown file   
 [ ] Night mode   
+[ ] PDF/ODT exporting
+[ ] User specified font/color/size
