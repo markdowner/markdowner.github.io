@@ -1,9 +1,11 @@
-Markdown, Humanized: A More Pleasant Way to Print & View Markdown.
+Markdown, Humanized
 ==============
 
-The site is now live [here](http://markdowner.github.io).
+**A More Pleasant Way to Print & View Markdown.**
 
-This site is an afternoon hack to fill a need to print and view markdown in a appealing and typographically tasteful manner, somethign that most markdown apps are not good at.
+The site is now live [here](http://markdowner.github.io)!
+
+This site is an afternoon hack to fill a need of my own: the ability to print and view markdown in a appealing and typographically tasteful manner. This isn’t something most markdown apps are good at.
 
 ## What’s on the Roadmap
 [ ] Print button on preview  
