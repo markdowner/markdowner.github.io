@@ -136,6 +136,10 @@ hr:after {
 	font-weight: 200;
 }
 
+.github-ribbon{
+	display: none;
+}
+
 /* CONTENT INPUT */
 
 .content-input{
@@ -155,6 +159,12 @@ hr:after {
 .settings-bar{
 	min-height: 60px;
 	line-height: 60px;
+}
+
+.settings{
+	max-width: 500px;
+	margin: 0 auto;
+	text-align: center;
 }
 
 select{
@@ -303,20 +313,21 @@ select{
 
 @media print{
 	
-			body{
-				font-size:14px;
-			}
-	
-       a:after{content:" (" attr(href) ") ";font-size:0.8em;font-weight:normal;}
+	body{
+		font-size:14px;
+		padding: 0 2cm;
+		color:black;
+	}
+	a:after{content:" (" attr(href) ") ";font-weight:200;}
 }
 
-@media all and (min-width:660px){
+@media all and (min-width:960px){
 	
 	body{
 		font-size:22px;
 	}
 	
-	.submit-button{
+	.humanize-button{
 		float:right;
 		width: auto;
 	}
@@ -325,4 +336,27 @@ select{
 		display: inline;
 	}
 	
+	.github-ribbon{
+		display: block;
+	}
+	
+	.view{
+		float:left;
+		display: inline-block;
+		margin:3%;
+	}
+	
+	.settings{
+		position: fixed;
+		right:20px;
+		top:20%;
+		width: 200px;
+		font-size:.7em;
+		opacity:.5;
+		text-align: right;
+	}
+	
+	.settings:hover{
+		opacity:1;
+	}
 }

@@ -2,8 +2,8 @@
 
 - [x] Update tones: scholar → sophisticate, + tex style → scholar, delete regular, boring → regular  
 - [x] Get some XXS protection  
-- [ ] Print button on preview  
-- [ ] Save button on preview  
+- [x] Print button on preview  
+- [x] Save button on preview  
 - [ ] About page/modal  
 - [ ] Markdown cheatsheat  
 - [ ] Save data to localstorage; make it persistent for 30 mins  
