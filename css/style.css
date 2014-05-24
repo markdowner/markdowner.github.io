@@ -26,6 +26,7 @@ body{
   font-size: 18px;
   font-family: Alegreya;
   font-weight: 200;
+  line-height: 1.4;
 
   -moz-font-feature-settings: "liga=1", "dlig=1", "hlig=1";
   -ms-font-feature-settings: "liga", "dlig", "hlig";
@@ -282,6 +283,7 @@ select{
 
 .hipster h1, .hipster h2, .hipster h3, .hipster h4, .hipster h5, .hipster h6{
   font-family: Bebas Neue;
+  font-weight: 900;
   border-bottom: 3px solid orange;
 }
 
