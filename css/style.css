@@ -17,6 +17,24 @@ LICENSE URL ... https://github.com/typeplate/bower/blob/master/license.txt
 */@font-face{font-family:Ampersand;src:local("Georgia"),local("Garamond"),local("Palatino"),local("Book Antiqua");unicode-range:U+0026}@font-face{font-family:Ampersand;src:local("Georgia");unicode-range:U+270C}.ampersand{font-family:Ampersand,Verdana,sans-serif}.breakword{word-wrap:break-word}.normal-wrap{word-wrap:normal}.inherit-wrap{word-wrap:auto}.drop-cap:first-letter{float:left;margin:auto .25em auto auto;padding:inherit;font-size:4em;font-family:inherit;line-height:1;text-indent:0;background:0 0;color:inherit}p+.drop-cap{text-indent:0;margin-top:0}html{font:400 112.5%/1.65 serif}body{-webkit-hyphens:auto;-moz-hyphens:auto;-ms-hyphens:auto;-o-hyphens:auto;hyphens:auto;word-wrap:break-word;color:#444}small{font-size:65%}h1,h2,h3,h4,h5,h6{line-height:1;margin-top:0;text-rendering:optimizeLegibility;color:#222}.tera{font-size:117px;font-size:6.5rem;margin-bottom:4.57px;margin-bottom:.25385rem}.giga{font-size:90px;font-size:5rem;margin-bottom:5.94px;margin-bottom:.33rem}.mega{font-size:72px;font-size:4rem;margin-bottom:7.43px;margin-bottom:.4125rem}.alpha,h1{font-size:60px;font-size:3.33333rem;margin-bottom:8.91px;margin-bottom:.495rem}.beta,h2{font-size:48px;font-size:2.6667rem;margin-bottom:11.14px;margin-bottom:.61875rem}.gamma,h3{font-size:36px;font-size:2rem;margin-bottom:14.85px;margin-bottom:.825rem}.delta,h4{font-size:24px;font-size:1.3333333333333333rem;margin-bottom:22.28px;margin-bottom:1.2375rem}.epsilon,h5{font-size:21px;font-size:1.16667rem;margin-bottom:25.46px;margin-bottom:1.41429rem}.zeta,h6{font-size:18px;font-size:1rem;margin-bottom:29.7px;margin-bottom:1.65rem}p{margin:auto auto 1.5em}p+p{text-indent:1.5em;margin-top:-1.5em}abbr,acronym,blockquote,code,dir,kbd,listing,plaintext,q,samp,tt,var,xmp{-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;-o-hyphens:none;hyphens:none}pre code{word-wrap:normal;white-space:-moz-pre-wrap;white-space:pre-wrap}pre{white-space:pre}code{white-space:pre;font-family:monospace}abbr{font-variant:small-caps;font-weight:600;text-transform:lowercase;color:gray}abbr[title]:hover{cursor:help}.lining dd,.lining dt{display:inline;margin:0}.lining dd+dt:before,.lining dt+dt:before{content:"\A";white-space:pre}.lining dd+dd:before{content:", "}.lining dd:before{content:": ";margin-left:-.2em}.dictionary-style dt{display:inline;counter-reset:definitions}.dictionary-style dt+dt:before{content:", ";margin-left:-.2em}.dictionary-style dd{display:block;counter-increment:definitions}.dictionary-style dd:before{content:counter(definitions,decimal) ". "}.blockquote p:last-of-type{margin-bottom:-.825em}.blockquote+figcaption{display:block;font-size:inherit;text-align:right}.blockquote+figcaption:before{content:"-"}.pull-quote{position:relative;padding:1em}.pull-quote:after,.pull-quote:before{height:1em;opacity:.15;position:absolute;font-size:4em;color:#dc976e}.pull-quote:before{content:'“';top:0;left:0}.pull-quote:after{content:'”';bottom:0;right:0}html{font-size: 100%;}
 
 
+/**
+ * CSS Modal
+ * Modal as reusable module
+ * http://drublic.github.com/css-modal
+ *
+ * @author Hans Christian Reinl - @drublic
+ * @version 1.0.4
+ *
+ * Usage:
+ *    selector {
+ *        @extend %modal;
+ *    }
+ */
+/*
+ * Configuration
+ */
+html{overflow-y:scroll}.has-overlay{overflow:hidden}.has-overlay>body{height:100%;overflow-y:scroll}.semantic-content{-moz-transform:translate(0,100%);-o-transform:translate(0,100%);-ms-transform:translate(0,100%);-webkit-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0);position:fixed;top:0;left:0;right:0;bottom:0;z-index:999;opacity:0;color:#222;line-height:1.3}.semantic-content:target{-webkit-transform:translate(0,0);-moz-transform:translate(0,0);-o-transform:translate(0,0);-ms-transform:translate(0,0);transform:translate(0,0);opacity:1}.semantic-content .modal-inner{position:absolute;top:50px;left:50%;z-index:20;margin-left:-325px;width:650px;overflow-x:hidden;border-radius:2px;background:#fff;-webkit-box-shadow:0 0 30px rgba(0,0,0,.6);box-shadow:0 0 30px rgba(0,0,0,.6)}.semantic-content .modal-inner>iframe,.semantic-content .modal-inner>img,.semantic-content .modal-inner>video{width:100%;height:auto;min-height:300px}.semantic-content .modal-inner>img{width:auto;max-width:100%}.semantic-content header{border-bottom:1px solid #ddd;padding:0 1.2em}.semantic-content header>h2{margin:.5em 0}.semantic-content .modal-content{max-height:400px;max-height:70vh;border-bottom:1px solid #ddd;padding:15px 1.2em;overflow-x:hidden;overflow-y:auto}.semantic-content .modal-content>*{max-width:100%}.semantic-content footer{border-top:1px solid #fff;padding:0 1.2em 18px;background:#f0f0f0;border-radius:2px}.semantic-content .modal-close{display:block;text-indent:-100px;overflow:hidden}.semantic-content .modal-close:before{content:'';position:absolute;top:0;left:0;right:0;bottom:0;z-index:10;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAEElEQVR42gEFAPr/AAAAAMwA0QDNTiUx4gAAAABJRU5ErkJggg==)}.semantic-content .modal-close:after{content:'\00d7';position:absolute;top:25px;left:50%;z-index:20;margin-left:285px;background:#fff;border-radius:2px;padding:2px 8px;font-size:1.2em;text-decoration:none;text-indent:0}@media screen and (max-width:690px){.semantic-content .modal-inner{width:auto;left:20px;right:20px;margin-left:0}.semantic-content .modal-close{left:auto;right:33px;margin-left:0}.semantic-content .modal-close:after{margin-left:40%}}@media screen and (max-width:30em){.semantic-content{-webkit-transform:translate(0,400px);-webkit-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0);-webkit-transition:-webkit-transform .25s ease-in-out,opacity 1ms .25s;-moz-transition:-moz-transform .25s ease-in-out,opacity 1ms .25s;-o-transition:-o-transform .25s ease-in-out,opacity 1ms .25s;-ms-transition:-ms-transform .25s ease-in-out,opacity 1ms .25s;transition:transform .25s ease-in-out,opacity 1ms .25s;display:block;height:100%;bottom:auto}.semantic-content:target{-webkit-transition:-webkit-transform .25s ease-in-out;-moz-transition:-moz-transform .25s ease-in-out;-o-transition:-o-transform .25s ease-in-out;-ms-transition:-ms-transform .25s ease-in-out;transition:transform .25s ease-in-out}.semantic-content:before{background-color:#27aae2;background-image:-webkit-gradient(linear,left top,left bottom,from(#27aae2),to(#1c9cd3));background-image:-webkit-linear-gradient(top,#27aae2,#1c9cd3);background-image:-moz-linear-gradient(top,#27aae2,#1c9cd3);background-image:-o-linear-gradient(top,#27aae2,#1c9cd3);background-image:linear-gradient(to bottom,#27aae2,#1c9cd3);content:'';position:fixed;top:0;left:0;right:0;z-index:30;height:3em;-webkit-box-shadow:0 0 5px rgba(0,0,0,.6);box-shadow:0 0 5px rgba(0,0,0,.6)}.semantic-content .modal-inner{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;top:0;left:0;right:0;padding-top:3em;height:100%;overflow:scroll;-webkit-box-shadow:none;box-shadow:none}.semantic-content .modal-content{max-height:none}.semantic-content .modal-close{right:auto;text-decoration:none}.semantic-content .modal-close:before{display:none}.semantic-content .modal-close:after{content:attr(data-close);top:.4em;left:1em;z-index:40;margin-left:0;font-size:1em;padding:.5em 1em}}@media screen and (max-height:46em) and (min-width:30em){.semantic-content .modal-content{max-height:340px;max-height:50vh}}@media screen and (max-height:36em) and (min-width:30em){.semantic-content .modal-content{max-height:265px;max-height:40vh}}@media screen and (min-width:30em){.semantic-content{-webkit-transition:opacity .4s;-o-transition:opacity .4s;transition:opacity .4s}}
+
 
 
 /* ======================================= */
@@ -55,6 +73,8 @@ a:hover {
 }
 
 h1,h2,h3,h4,h5,h6{
+  font-family: Bebas Neue;
+  font-weight: 900;
   margin-bottom: 2%;
   padding-bottom: 1%;
 }
@@ -122,6 +142,10 @@ code, pre{
   margin:0 auto;
 }
 
+.ti0{
+  text-indent:0;
+}
+
 .sc{
   -moz-font-feature-settings: "smcp=1;
   -ms-font-feature-settings: "smcp";
@@ -154,6 +178,7 @@ code, pre{
 
 .subtitle{
   font-weight: 200;
+  font-family: Alegreya;
 }
 
 .github-ribbon{
