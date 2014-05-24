@@ -1,67 +1,68 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="description" content="A simple, open-source applet that makes it easy to print and view markdown and while easing the eyes with appealing typography.">
-	<meta name="MobileOptimized" content="320">
+  <meta charset="UTF-8">
+  <meta name="description" content="A simple, open-source applet that makes it easy to print and view markdown and while easing the eyes with appealing typography.">
+  <meta name="MobileOptimized" content="320">
   <meta name="HandheldFriendly" content="True">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-	<title>Markdown, Humanized — A Pleasant Way to Print + View Markdown</title>
-	
-	<link rel="stylesheet" href="css/vendor/typeplate.css">
-	<link rel="stylesheet" href="css/style.css">
-	
-	<link rel="shortcut icon" href="favicon.png">
-	<link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
-	
-	<link rel="stylesheet" href="//brick.a.ssl.fastly.net/Alegreya:400,400i,700,700i">
+
+  <title>Markdown, Humanized — A Pleasant Way to Print + View Markdown</title>
+
+<!--  <link rel="stylesheet" href="css/vendor/typeplate.css">-->
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="shortcut icon" href="favicon.png">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+
+  <link rel="stylesheet" href="//brick.a.ssl.fastly.net/Alegreya:400,400i,700,700i">
 </head>
 <body>
 <div class="container">
 
 <header class="site-header ui">
-	<a href="http://markdowner.github.io">
-		<h1 class="beta title">Markdown<br>
-		<img src="img/logo.png" alt="Markdown Humanized Logo"><br>
-		 Humanized</h1>
-	</a>
-	<h3 class="subtitle"><em>A Pleasant Way to Print <span class="amp">&amp;</span> View Markdown</em>			</h3>
-	<hr style="margin-top: 40px;"><br>
+  <a href="http://markdowner.github.io">
+    <h1 class="beta title">Markdown<br>
+    <img src="img/logo.png" alt="Markdown Humanized Logo"><br>
+     Humanized</h1>
+  </a>
+  <h3 class="subtitle"><em>A Pleasant Way to Print <span class="amp">&amp;</span> View Markdown</em>      </h3>
+  <hr style="margin-top: 40px;"><br>
 </header>
 
 <div class="content" id="content">
 <iframe name="myiframe" style="display: none;"></iframe>
-	<form action="#" onsubmit="markdownHumanize(); return false" target="myiframe">
-		<textarea class="content-input" id="content-input" placeholder="Paste your text here." required></textarea><br clear="all">
-		
-		<div class="settings-bar">
-			<label class="custom-select">I’m writing for: 
-			<select name="tone" id="tone-select">
-				<option value="classy">Sophisticates</option>
-				<option value="everyday">Regular People</option>
-				<option value="academic">Scholars</option>
-				<option value="jolly">Children</option>
-				<option value="hipster">Hipsters</option>
-			</select>
-			</label>
+  <form action="#" onsubmit="markdownHumanize(); return false" target="myiframe">
+    <textarea class="content-input" id="content-input" placeholder="Paste your text here." required></textarea><br clear="all">
 
-		<button class="submit-button humanize-button" type="submit">Humanize &raquo;</button>
-		</div>
-	</form>
-	
-	
+    <div class="settings-bar">
+      <label class="custom-select">I’m writing for:
+      <select name="tone" id="tone-select">
+        <option value="classy">Sophisticates</option>
+        <option value="everyday">Regular People</option>
+        <option value="academic">Scholars</option>
+        <option value="jolly">Children</option>
+        <option value="hipster">Hipsters</option>
+      </select>
+      </label>
 
-	</div> <!-- END CONTENT -->
-	<br clear="all">
-	<footer class="site-footer ui attribution">
-		<hr style="margin-bottom:0;margin-top:0;">
-		
-		<div class="share-button" style="margin: 0 auto;"></div><br>
+    <button class="submit-button humanize-button" type="submit" style="margin-bottom: 20px;">Humanize &raquo;</button>
+    </div>
+  </form>
 
-		<p><em>Built with ☕ by <a href="http://omphalosskeptic.github.io">Omphalosskeptic </a> ( <a href="http://twitter.com/omphalosskeptic">@omphalosskeptic</a>  on Twitter). <br> Handsome typography made possible by <a href="http://typeplate.com">Typeplate</a> <span class="amp">&amp;</span> <a href="http://brick.im">Brick Webfonts.</a></em></p>
-	</footer>
-		
+
+
+  </div> <!-- END CONTENT -->
+  <br clear="all">
+  <footer class="site-footer ui attribution">
+
+    <hr class="plain" style="margin-bottom:0;margin-top:0px;"><br>
+
+    <div class="share-button" style="margin: 0 auto;"></div><br>
+
+    <p><em>Built with ☕ by <a href="http://omphalosskeptic.github.io">Omphalosskeptic </a> ( <a href="http://twitter.com/omphalosskeptic">@omphalosskeptic</a>  on Twitter).</p><p style="text-indent:0;">  Handsome typography made possible by <a href="http://typeplate.com">Typeplate</a> <span class="amp">&amp;</span> <a href="http://brick.im">Brick Webfonts.</a></em></p>
+  </footer>
+
 </div> <!-- END CONTAINER -->
 
 <a href="https://github.com/markdowner/markdowner.github.io" class="github-ribbon">
@@ -71,10 +72,10 @@
 <script type="text/javascript" src="js/humanize.js"></script>
 <script type="text/javascript" src="js/vendor/share.min.js"></script>
 <script>
-	var config = {
+  var config = {
   url: "http://markdowner.github.io",
   title: "Markdown, Humanized",
-  text: "A Pleasant Way to Print & View Markdown" , 
+  text: "A Pleasant Way to Print & View Markdown" ,
   image: "http://markdowner.github.io/img/markdown-humanized.png",
   networks: {
     google_plus: {
@@ -97,8 +98,8 @@
     }
   }
 }
-		
-	var share = new Share(".share-button", config);
+
+  var share = new Share(".share-button", config);
 </script>
 
 <script>
