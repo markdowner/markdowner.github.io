@@ -89,7 +89,7 @@ hr:not(.plain):after {
   content: "◉";
   display: inline;
   position: relative;
-  top: -.6em;
+  top: -.8em;
   color:#ccc;
   font-size: 1em;
   padding: 0 0.25em;

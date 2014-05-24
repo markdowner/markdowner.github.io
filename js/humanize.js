@@ -8,33 +8,6 @@ function printPDF(htmlPage) {
   }
 }
 
-addCssRule = function(/* string */ selector, /* string */ rule) {
-  if (document.styleSheets) {
-    if (!document.styleSheets.length) {
-      var head = document.getElementsByTagName('head')[0];
-      head.appendChild(bc.createEl('style'));
-    }
-
-    var i = document.styleSheets.length-1;
-    var ss = document.styleSheets[i];
-
-    var l=0;
-    if (ss.cssRules) {
-      l = ss.cssRules.length;
-    } else if (ss.rules) {
-      // IE
-      l = ss.rules.length;
-    }
-
-    if (ss.insertRule) {
-      ss.insertRule(selector + ' {' + rule + '}', l);
-    } else if (ss.addRule) {
-      // IE
-      ss.addRule(selector, rule, l);
-    }
-  }
-};
-
 function nightMode(){
   document.body.style.color = "#fefefe";
   document.body.style.background = "#222";
@@ -54,8 +27,8 @@ function markdownHumanize() {
     toneSelect = document.getElementById('tone-select'),
     tone = toneSelect.options[toneSelect.selectedIndex].value;
 
-  if (humanizedContent.match("<[^>]*script")) {
-    alert('To protect our users, we do not scripts in the markdown; please try again after removing any script tags (or making sure they are in code blocks). If this is an error let us know and we will be happy to help.');
+  if (humanizedContent.match("/<script[\s\S]*?>[\s\S]*?<\/script>/g")) {
+    alert('To protect our users, we do not allow scripts in the markdown; please try again after removing any script tags (or making sure they are in code blocks). If this is an error let us know and we will be happy to help.');
     return;
   }
 
@@ -108,6 +81,13 @@ function markdownHumanize() {
   while (interfaceElements[0]) {
     interfaceElements[0].parentNode.removeChild(interfaceElements[0]);
   }
+
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
 
 }
 
