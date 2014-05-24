@@ -38,6 +38,7 @@ body{
 .container{
   max-width: 960px;
   margin: 0 auto;
+  padding: 3%;
 }
 
 a {
@@ -355,6 +356,16 @@ select{
   }
 }
 
+/* Medium*/
+
+@media all and (min-width:640px){
+  .site-header .amp{
+    display: inline;
+  }
+}
+
+/* Large */
+
 @media all and (min-width:960px){
 
   body{
@@ -366,9 +377,7 @@ select{
     width: auto;
   }
 
-  .site-header .amp{
-    display: inline;
-  }
+
 
   .github-ribbon{
     display: block;
@@ -392,5 +401,9 @@ select{
 
   .settings:hover{
     opacity:1;
+  }
+
+  .settings-bar{
+    margin-top: 20px;
   }
 }
