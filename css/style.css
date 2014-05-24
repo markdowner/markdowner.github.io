@@ -312,13 +312,20 @@ select{
 }
 
 @media print{
-	
 	body{
 		font-size:14px;
 		padding: 0 2cm;
 		color:black;
 	}
-	a:after{content:" (" attr(href) ") ";font-weight:200;}
+	
+	.settings{
+		display: none;
+	}
+	
+	a:after{
+		content:" (" attr(href) ") ";
+		font-weight:200;
+	}
 }
 
 @media all and (min-width:960px){
