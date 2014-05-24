@@ -8,12 +8,13 @@
 - [x] Share button
 - [ ] About page/modal
 - [ ] Markdown cheatsheat
+- [ ] Markdown tutorial
 - [ ] Save data to localstorage; make it persistent for 30 mins
 - [ ] Input a gist id to get markdown from (or append gist id to url)
 - [ ] Upload markdown file
 - [ ] Night mode
 - [ ] User specified font/color/size
-- [ ] Mathjax support
+- [x] Mathjax support
 - [ ] Inline markdown highlighting in editor;
 - [ ] Spellcheck in editor
 - [ ] Fullscreen mode in editor
