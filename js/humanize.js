@@ -8,6 +8,10 @@ function printPDF(htmlPage) {
 	}
 }
 
+function dismiss (id) {
+	document.getElementById(id).style.display = 'none';
+}
+
 function markdownHumanize() {
 	"use strict";
 	
@@ -30,6 +34,7 @@ function markdownHumanize() {
 	settingsHTML += "<p>Typesetting tone: <strong>" + tone + "</strong>.</p>";
 	settingsHTML += "<button class='submit-button' onClick='javascript:window.print()'>Print</button><br>";
 	settingsHTML += "<p><em><strong>ProTip:</strong> Want to keep a permanent copy of your document? Select “Print to File” in the print dialog to generate &amp; save a .PDF.</em></p>";
+	settingsHTML += "<a href='#!' onClick=\"dismiss('settings')\">DISMISS</a>";
 	settingsHTML += "</aside>";
 
 	contentDiv.setAttribute("class", "content " + tone + " view");

@@ -4,6 +4,7 @@
 - [x] Get some XXS protection  
 - [x] Print button on preview  
 - [x] Save button on preview  
+- [x] Settings dismiss
 - [ ] About page/modal  
 - [ ] Markdown cheatsheat  
 - [ ] Save data to localstorage; make it persistent for 30 mins  
