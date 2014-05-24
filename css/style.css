@@ -140,6 +140,12 @@ hr:after {
 	display: none;
 }
 
+.share-button.sharer-0>.entypo-export{
+	background: #dd4814;
+	color:white;
+	
+}
+
 /* CONTENT INPUT */
 
 .content-input{

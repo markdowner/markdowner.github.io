@@ -79,3 +79,54 @@ function markdownHumanize() {
 }
 
 
+//var config = {
+//  url: "http://markdowner.github.io",
+//  title: "Markdown, Humanized"   // title to be shared alongside your link [Default: your page's meta description]
+//  text: "A More Pleasant Way to Print & View Markdown"  , 
+//  image: "http://markdowner.github.io/img/markdown-humanized.png",
+////  ui: {
+////    flyout:            // change the flyout direction of the shares. chose from `top left`, `top center`, `top right`, `bottom left`, `bottom right`, `bottom center`, `middle left`, or `middle right` [Default: `top center`]
+////    button_font:       // include the Lato font set from the Google Fonts API. [Default: `true`]
+////    button_text:       // change the text of the button, [Default: `Share`]
+////    icon_font:         // include the minified Entypo font set. [Default: `true`]
+////  },
+//  networks: {
+//    google_plus: {
+//      enabled: // Enable Google+. [Default: true]
+//      url:     // the url you'd like to share to Google+ [Default: config.url]
+//    },
+//    twitter: {
+//      enabled: true,
+//      url: "markdowner.github.io",
+//      description: "A better way to print & view markdown"
+//    },
+//    facebook: {
+//      enabled: false,
+////      load_sdk: // Load the FB SDK. If false, it will default to Facebook's sharer.php implementation. 
+////                // NOTE: This will disable the ability to dynamically set values and rely directly on applicable Open Graph tags.
+////                // [Default: true]
+////      url: // the url you'd like to share to Facebook [Default: config.url]
+////      app_id: // Facebook app id for tracking shares. if provided, will use the facebook API
+////      title: // title to be shared alongside your link to Facebook [Default: config.title]
+////      caption: // caption to be shared alongside your link to Facebook [Default: null]
+////      description:    // text to be shared alongside your link to Facebook [Default: config.description]
+////      image: // image to be shared to Facebook [Default: config.image]
+//    },
+//    pinterest: {
+//      enabled: false,
+////      url:     // the url you'd like to share to Pinterest [Default: config.url]
+////      image:   // image to be shared to Pinterest [Default: config.image]
+////      description:    // text to be shared alongside your link to Pinterest [Default: config.description]
+//    },
+//    email: {
+//      enabled: true,
+//      title: "Markdown, Humanized",
+//      description:  "test"
+//    }
+//  }
+//}
+//			
+
+
+
+
