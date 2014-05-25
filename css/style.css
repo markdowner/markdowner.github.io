@@ -280,6 +280,10 @@ select{
   font-family: Calendas Plus, Linux Libertine, serif;
 }
 
+.classy h1, .classy h2, .classy h3, .classy h4, .classy h5, .classy h6{
+  font-family: Calendas Plus, Linux Libertine, serif;
+}
+
 /* everyday */
 
 .content.everyday{
@@ -288,6 +292,7 @@ select{
 }
 
 .everyday h1, .everyday h2, .everyday h3, .everyday h4, .everyday h5, .everyday h6{
+  font-family: Roboto, sans-serif;
   text-transform: uppercase;
   font-weight: 900;
   letter-spacing: .02em;
@@ -303,7 +308,7 @@ select{
 }
 
 .academic h1, .academic h2, .academic h3, .academic h4, .academic h5, .academic h6{
-
+  font-family: Latin Modern Roman, Georgia;
 }
 
 
@@ -316,6 +321,7 @@ select{
 
 .jolly h1, .jolly h2, .jolly h3, .jolly h4, .jolly h5, .jolly h6{
   font-weight: 700;
+  font-family: Comic Neue, Ubuntu;
 }
 
 /* Hip */
