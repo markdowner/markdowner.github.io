@@ -101,9 +101,9 @@ blockquote{
 hr{
   border: none;
   border-top: medium double #eee;
-  color: #333;
   width: 40%;
   text-align: center;
+  margin: 0 auto;
 }
 
 hr:not(.plain):after {
