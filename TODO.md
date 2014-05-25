@@ -6,7 +6,7 @@
 - [x] Save button on preview
 - [x] Settings dismiss
 - [x] Share button
-- [ ] About page/modal
+- [x] About page/modal
 - [ ] Markdown cheatsheat
 - [ ] Markdown tutorial
 - [ ] Save data to localstorage; make it persistent for 30 mins

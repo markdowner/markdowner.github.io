@@ -56,18 +56,20 @@
   <br clear="all">
   <footer class="site-footer ui attribution">
 
-    <hr class="plain" style="margin-bottom:0;margin-top:0px;"><br>
+    <hr class="plain" style="margin-bottom:0;margin-top:0px;">
+    <p class="ti0" style="margin-top: 10px;"><a href="#modal-about" class="call-modal" title="Clicking this link shows the modal">about this site</a> &bull;
+     <a href="#modal-markdown" class="call-modal" title="Clicking this link shows the modal">markdown reference</a></p>
 
     <div class="share-button" style="margin: 0 auto;"></div><br>
 
     <p><em>Built with ☕ by <a href="http://omphalosskeptic.github.io">Omphalosskeptic </a> ( <a href="http://twitter.com/omphalosskeptic">@omphalosskeptic</a>  on Twitter).</p><p style="text-indent:0;">  Handsome typography made possible by <a href="http://typeplate.com">Typeplate</a> <span class="amp">&amp;</span> <a href="http://brick.im">Brick Webfonts.</a></em></p>
-    <p class="ti0"><a href="#modal-text" class="call-modal" title="Clicking this link shows the modal">ABOUT</a></p>
+
   </footer>
 
 </div> <!-- END CONTAINER -->
 
 <!-- A modal with its content -->
-<section class="semantic-content" id="modal-text"
+<section class="semantic-content" id="modal-about"
     tabindex="-1" role="dialog" aria-labelledby="modal-label" aria-hidden="true">
 
   <div class="modal-inner">
@@ -93,8 +95,67 @@
       <div style="margin-top: 15px;text-align: center;"><div class="share-button-2 m0a"></div><br><em >Want to help out? Tell your friends about this site!</em></div>
     </footer>
   </div>
+<!-- Use Hash-Bang to maintain scroll position when closing modal -->
+  <a href="#!" class="modal-close" title="Close this modal"
+      data-dismiss="modal">&times;</a>
+</section>
 
-  <!-- Use Hash-Bang to maintain scroll position when closing modal -->
+<!-- Markdown cheatsheet -->
+
+  <section class="semantic-content" id="modal-markdown"
+    tabindex="-1" role="dialog" aria-labelledby="modal-label" aria-hidden="true">
+
+  <div class="modal-inner">
+    <header>
+      <h2 id="modal-label">Markdown Cheatsheet</h2>
+    </header>
+
+    <div class="modal-content" style="font-size:.8em;">
+      <span>Markdown:</span><br>
+      <pre>*This text will be italic*</pre>
+      <span>Output:</span><br>
+      <em>This text will be italic</em>
+      <br><br>
+      <pre>**This text will be bold**</pre>
+      <strong>This text will be bold</strong>
+      <br><br>
+
+      <pre>[Link Text](http://example.com)</pre>
+       <a href="http://example.com">Link Text</a>
+       <br><br>
+
+      <pre>
+>This is a large blockquote from another author, and it will be indented. You will need to put a right angle bracket at the start of each paragraph.
+>Like this. Here is another paragraph in the blockquote.
+      </pre><br>
+
+      <blockquote>
+        <p>
+This is a large blockquote from another author, and it will be indented. You will need to put a right angle bracket at the start of each paragraph.</p>
+      </blockquote>
+
+      <pre>A horizontal rule:
+
+--------------</pre><br>
+      A horizontal rule:
+      <hr>
+      <br><br>
+      <pre>![Alt Text](http://markdowner.github.io/img/markdown-humanized-2.png)</pre>
+      <img src="http://markdowner.github.io/img/markdown-humanized-2.png" alt="Alt Text">
+      <br><br>
+      <pre>Tex Math: $$\Delta p \Delta x \geq {h \over 4 \pi}$$ </pre>
+      Tex Math:<br>
+      <img src="img/math-sample.png" width="200px" alt="Math sample"><br>
+      If you want a literal asterisk, underscore, or any other character that is used in markdown, put a backslash before it:<br>
+      <pre>\*This will not be italic\*</pre>
+       *This will not be italic*
+
+    </div>
+
+    <footer>
+      <div style="margin-top: 15px;text-align: center;"><a href="http://wikipedia.org/wiki/Markdown">Markdown</a> is a plain-text markup language with simple syntax that you can learn in minutes. Because of its <a href="http://brettterpstra.com/2011/08/31/why-markdown-a-two-minute-explanation/">many</a> <a href="http://lifehacker.com/5943320/what-is-markdown-and-why-is-it-better-for-my-to-do-lists-and-notes"> advantages</a>, it is widely used by writers and bloggers.</div>
+    </footer>
+  </div>
   <a href="#!" class="modal-close" title="Close this modal"
       data-dismiss="modal">&times;</a>
 </section>

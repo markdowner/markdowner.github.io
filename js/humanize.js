@@ -19,6 +19,12 @@ function dismiss (id) {
 
 function markdownHumanize() {
   "use strict";
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
 
   var contentInput = document.getElementById('content-input'),
     contentDiv = document.getElementById('content'),
@@ -82,12 +88,7 @@ function markdownHumanize() {
     interfaceElements[0].parentNode.removeChild(interfaceElements[0]);
   }
 
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    script.src  = "http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
+
 
 }
 
