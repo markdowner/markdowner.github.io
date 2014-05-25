@@ -42,7 +42,7 @@ html{overflow-y:scroll}.has-overlay{overflow:hidden}.has-overlay>body{height:100
 
 body{
   font-size: 18px;
-  font-family: Alegreya;
+  font-family: Alegreya, Georgia, serif;
   font-weight: 200;
   line-height: 1.4;
 
@@ -178,7 +178,7 @@ code, pre{
 
 .subtitle{
   font-weight: 200;
-  font-family: Alegreya;
+  font-family: Alegreya, Georgia, serif;
 }
 
 .github-ribbon{
@@ -197,7 +197,7 @@ code, pre{
   width: 100%;
   max-width: 100%;
   height: 200px;
-  font-family: Alegreya, serif;
+  font-family: Alegreya, Georgia, serif;
   font-size: 1em;
   border: 4px double #ccc !important;
 }
@@ -230,7 +230,7 @@ select{
   float:left;
   text-transform: uppercase;
   padding: 7px 15px;
-  font: 900 1.4em Alegreya;
+  font: 900 1.4em Alegreya, Georgia, serif;
   letter-spacing: .02em;
   border-radius:2px;
   cursor: pointer;
@@ -327,7 +327,7 @@ select{
 /* Hip */
 
 .content.hipster{
-  font-family: Alegreya;
+  font-family: Alegreya, Georgia, serif;
 }
 
 .hipster h1, .hipster h2, .hipster h3, .hipster h4, .hipster h5, .hipster h6{
