@@ -7,7 +7,8 @@
 - [x] Settings dismiss
 - [x] Share button
 - [x] About page/modal
-- [ ] Markdown cheatsheat
+- [x] Markdown cheatsheat
+- [ ] Explain what Markdown is
 - [ ] Markdown tutorial
 - [ ] Save data to localstorage; make it persistent for 30 mins
 - [ ] Input a gist id to get markdown from (or append gist id to url)
@@ -15,6 +16,7 @@
 - [ ] Night mode
 - [ ] User specified font/color/size
 - [x] Mathjax support
+- [x] Copy raw html (+ copy formatted HTML)
 - [ ] Inline markdown highlighting in editor;
 - [ ] Spellcheck in editor
 - [ ] Fullscreen mode in editor

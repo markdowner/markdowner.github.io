@@ -42,11 +42,12 @@ function markdownHumanize() {
   contentDiv.innerHTML = "<br><br>" + humanizedContent;
   contentDiv.innerHTML += "<br><hr><footer class='attribution'><em>Markdown, Humanized by <a href='http://markdowner.github.io'>Markdowner</a></em></span>";
   var settingsHTML = "<aside class='settings' id='settings'>";
+  settingsHTML += "<a href='http://markdowner.github.io' class='back-button'>← GO BACK</a><br><br>";
   settingsHTML += "<p>Typesetting tone: <strong>" + tone + "</strong>.</p>";
 //  settingsHTML += "<button onClick='nightMode()'>Toggle Night Mode</button>";
   settingsHTML += "<button class='submit-button' onClick='javascript:window.print()'>Print</button><br clear='all'>";
   settingsHTML += "<p><em><br><strong>ProTip:</strong> Want to keep a permanent copy of your document? Select “Print to File” in the print dialog to generate &amp; save a .PDF.</em></p>";
-  settingsHTML += "<a href='#!' onClick=\"dismiss('settings')\">DISMISS</a>";
+  settingsHTML += "<a href='#!' onClick=\"dismiss('settings')\">[X] DISMISS</a>";
   settingsHTML += "</aside>";
 
   contentDiv.setAttribute("class", "content " + tone + " view");

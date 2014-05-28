@@ -185,6 +185,15 @@ code, pre{
   display: none;
 }
 
+/*
+.back-button{
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  font-size: .7em;
+}
+*/
+
 .share-button.sharer-0>.entypo-export{
   background: #dd4814;
   color:white;
