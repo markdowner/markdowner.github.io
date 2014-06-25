@@ -8,15 +8,16 @@
 - [x] Share button
 - [x] About page/modal
 - [x] Markdown cheatsheat
-- [ ] Explain what Markdown is
-- [ ] Markdown tutorial
+- [x] Explain what Markdown is
+- [ ] Markdown tutorial (that pastes into box)
 - [ ] Save data to localstorage; make it persistent for 30 mins
 - [ ] Input a gist id to get markdown from (or append gist id to url)
 - [ ] Upload markdown file
 - [ ] Night mode
 - [ ] User specified font/color/size
 - [x] Mathjax support
-- [x] Copy raw html (+ copy formatted HTML)
+- [ ] Copy raw html
+- [ ] copy formatted HTML
 - [ ] Inline markdown highlighting in editor;
 - [ ] Spellcheck in editor
 - [ ] Fullscreen mode in editor
