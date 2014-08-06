@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="208"
+   height="128"
+   viewBox="0 0 208 128"
+   id="svg3084"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="logo2.svg">
+  <metadata
+     id="metadata3094">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3092" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="744"
+     id="namedview3090"
+     showgrid="false"
+     inkscape:zoom="8.0771591"
+     inkscape:cx="43.005956"
+     inkscape:cy="104.44656"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g3162"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <sodipodi:guide
+       orientation="0,1"
+       position="11.55378,145.97214"
+       id="guide3873" />
+  </sodipodi:namedview>
+  <rect
+     width="94.253426"
+     height="56.171234"
+     x="378.84589"
+     y="54.325344"
+     ry="4.7602739"
+     id="rect3086-8"
+     style="fill:#000000;stroke:#000000;stroke-width:4.76027393" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 390.74658,98.59589 V 66.226027 h 9.52055 l 9.52054,11.900685 9.52055,-11.900685 h 9.52055 V 98.59589 h -9.52055 V 80.030822 l -9.52055,11.900685 -9.52054,-11.900685 V 98.59589 z m 59.50342,0 -14.28082,-15.708904 h 9.52055 V 66.226027 h 9.52055 v 16.660959 h 9.52054 z"
+     id="path3088-3"
+     style="fill:#ffffff" />
+  <rect
+     style="color:#000000;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.58529598;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+     id="rect2990"
+     width="128.4147"
+     height="128.4147"
+     x="139.31363"
+     y="-16.575508"
+     ry="3.8878245"
+     inkscape:export-filename="/var/www/markdowner.github.io/img/apple-touch-icon.png"
+     inkscape:export-xdpi="90.41021"
+     inkscape:export-ydpi="90.41021" />
+  <g
+     id="g3162"
+     inkscape:export-filename="/var/www/MDH/img/logo.png"
+     inkscape:export-xdpi="152.9944"
+     inkscape:export-ydpi="152.9944"
+     transform="matrix(1.1680779,0,0,1.1680779,42.155836,-9.841785)">
+    <path
+       inkscape:connector-curvature="0"
+       d="m -14.967761,31.096084 -4.217625,-4.639392 2.811748,0 0,-4.920566 2.811751,0 0,4.920566 2.811757,0 z"
+       id="path3088-4"
+       style="fill:#ff6600"
+       sodipodi:nodetypes="cccccccc"
+       inkscape:export-filename="/var/www/markdowner.github.io/img/logo2.png"
+       inkscape:export-xdpi="636.76581"
+       inkscape:export-ydpi="636.76581" />
+    <text
+       xml:space="preserve"
+       style="font-size:13.58445549px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:69.99999881%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Abecedario;-inkscape-font-specification:Abecedario"
+       x="-18.808317"
+       y="31.050463"
+       id="text3010"
+       sodipodi:linespacing="69.999999%"
+       inkscape:export-filename="/var/www/markdowner.github.io/img/logo2.png"
+       inkscape:export-xdpi="636.76581"
+       inkscape:export-ydpi="636.76581"><tspan
+         sodipodi:role="line"
+         id="tspan3012"
+         x="-18.808317"
+         y="31.050463"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:69.99999880999997970%;fill:#4d4d4d;font-family:Bebas Neue;-inkscape-font-specification:Bebas Neue Bold">Markdown</tspan><tspan
+         sodipodi:role="line"
+         x="-18.808317"
+         y="40.559582"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:69.99999881%;font-family:Bebas Neue;-inkscape-font-specification:Bebas Neue"
+         id="tspan3014" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:13.67044163px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:139.99999762%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Abecedario;-inkscape-font-specification:Abecedario"
+       x="-18.776758"
+       y="25.795961"
+       id="text3010-4"
+       sodipodi:linespacing="140%"
+       inkscape:export-filename="/var/www/markdowner.github.io/img/logo2.png"
+       inkscape:export-xdpi="636.76581"
+       inkscape:export-ydpi="636.76581"><tspan
+         sodipodi:role="line"
+         id="tspan3012-9"
+         x="-18.776758"
+         y="25.795961"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:69.99999881%;font-family:Bebas Neue;-inkscape-font-specification:Bebas Neue" /><tspan
+         sodipodi:role="line"
+         x="-18.776758"
+         y="42.542252"
+         style="font-size:13.67044163px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:139.99999762%;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:Bebas Neue;-inkscape-font-specification:Bebas Neue Bold"
+         id="tspan3910">humanized</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       d="m 66.08937,54.142885 -6.389216,-7.028144 4.259474,0 0,-7.454092 4.25948,0 0,7.454092 4.259487,0 z"
+       id="path3088-4-8-7"
+       style="fill:#ff6600"
+       sodipodi:nodetypes="cccccccc" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 41.071013,99.386027 v -9.559958 h 2.811748 l 2.811751,3.514692 2.811758,-3.514692 h 2.811746 v 9.559958 H 49.50627 V 93.903111 L 46.694512,97.4178 43.882761,93.903111 v 5.482916 z m 17.573447,0 -4.217624,-4.639392 h 2.811747 v -4.920566 h 2.811752 v 4.920566 h 2.811757 z"
+       id="path3088-4-1"
+       style="fill:#ff6600" />
+  </g>
+</svg>
