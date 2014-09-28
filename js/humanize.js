@@ -39,8 +39,8 @@ function markdownHumanize() {
   }
 
 
-  contentDiv.innerHTML = "<br><br>" + humanizedContent;
-  contentDiv.innerHTML += "<br><hr><footer class='attribution'><em>Markdown, Humanized by <a href='http://markdowner.github.io'>Markdowner</a></em></span>";
+  contentDiv.innerHTML = "<br>" + humanizedContent;
+  contentDiv.innerHTML += "<hr><footer class='attribution'> Typeset with <a href='http://markdowner.github.io'> Markdowner</a></span>";
   var settingsHTML = "<aside class='settings' id='settings'>";
   settingsHTML += "<a href='http://markdowner.github.io' class='back-button'>← GO BACK</a><br><br>";
   settingsHTML += "<p>Typesetting tone: <strong>" + tone + "</strong>.</p>";
@@ -52,6 +52,7 @@ function markdownHumanize() {
   settingsHTML += "</aside>";
 
   contentDiv.setAttribute("class", "content " + tone + " view");
+  document.body.setAttribute("class", "content body-" + tone + " view");
 
   document.body.innerHTML += settingsHTML;
 
@@ -65,7 +66,7 @@ function markdownHumanize() {
     break;
   case "classy":
     var headHTML = document.getElementsByTagName('head')[0].innerHTML;
-    headHTML += "<link rel='stylesheet' href='//brick.a.ssl.fastly.net/Linux+Libertine:400,400i,700,700i'>";
+    headHTML +='<link rel="stylesheet" href="//brick.a.ssl.fastly.net/Source+Serif+Pro:400,700/Source+Sans+Pro:400,900,400i,900i/Alegreya:400i,700i">';
     document.getElementsByTagName('head')[0].innerHTML = headHTML;
     break;
   case "everyday":
@@ -84,7 +85,6 @@ function markdownHumanize() {
     break;
   }
 
-  var ra
 
   var interfaceElements = document.getElementsByClassName('ui');
 

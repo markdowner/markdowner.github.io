@@ -13,7 +13,10 @@
    id="svg3084"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="logo2.svg">
+   sodipodi:docname="logo2.svg"
+   inkscape:export-filename="/var/www/markdowner.github.io/img/logo2.png"
+   inkscape:export-xdpi="79.258095"
+   inkscape:export-ydpi="79.258095">
   <metadata
      id="metadata3094">
     <rdf:RDF>
@@ -42,8 +45,8 @@
      id="namedview3090"
      showgrid="false"
      inkscape:zoom="8.0771591"
-     inkscape:cx="43.005956"
-     inkscape:cy="104.44656"
+     inkscape:cx="57.862665"
+     inkscape:cy="119.30327"
      inkscape:window-x="0"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
@@ -116,7 +119,7 @@
          id="tspan3014" /></text>
     <text
        xml:space="preserve"
-       style="font-size:13.67044163px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:139.99999762%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Abecedario;-inkscape-font-specification:Abecedario"
+       style="font-size:13.67044162999999912px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:139.99999761999995940%;letter-spacing:0px;word-spacing:0px;fill:#999999;fill-opacity:1;stroke:none;font-family:Abecedario;-inkscape-font-specification:Abecedario"
        x="-18.776758"
        y="25.795961"
        id="text3010-4"
@@ -128,18 +131,12 @@
          id="tspan3012-9"
          x="-18.776758"
          y="25.795961"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:69.99999881%;font-family:Bebas Neue;-inkscape-font-specification:Bebas Neue" /><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:69.99999880999997970%;font-family:Bebas Neue;-inkscape-font-specification:Bebas Neue;fill:#999999" /><tspan
          sodipodi:role="line"
          x="-18.776758"
          y="42.542252"
-         style="font-size:13.67044163px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:139.99999762%;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:Bebas Neue;-inkscape-font-specification:Bebas Neue Bold"
+         style="font-size:13.67044162999999912px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:139.99999761999995940%;writing-mode:lr-tb;text-anchor:start;fill:#999999;font-family:Bebas Neue;-inkscape-font-specification:Bebas Neue Bold"
          id="tspan3910">humanized</tspan></text>
-    <path
-       inkscape:connector-curvature="0"
-       d="m 66.08937,54.142885 -6.389216,-7.028144 4.259474,0 0,-7.454092 4.25948,0 0,7.454092 4.259487,0 z"
-       id="path3088-4-8-7"
-       style="fill:#ff6600"
-       sodipodi:nodetypes="cccccccc" />
     <path
        inkscape:connector-curvature="0"
        d="m 41.071013,99.386027 v -9.559958 h 2.811748 l 2.811751,3.514692 2.811758,-3.514692 h 2.811746 v 9.559958 H 49.50627 V 93.903111 L 46.694512,97.4178 43.882761,93.903111 v 5.482916 z m 17.573447,0 -4.217624,-4.639392 h 2.811747 v -4.920566 h 2.811752 v 4.920566 h 2.811757 z"
