@@ -85,6 +85,12 @@ h1,h2,h3,h4,h5,h6{
   padding-bottom: 1%;
 }
 
+.content h1{
+  font-size:48px;
+  font-size:2.6667rem;
+  margin-bottom:.61875rem;
+}
+
 p{
   max-width: 750px;
 }
@@ -104,17 +110,18 @@ blockquote{
   padding-left: 3%;
 }
 
+
 hr{
   display: block;
   height: 1px;
   border: 0;
   border-top: #EFEFEF 1px double;
-  margin: 3.2em 0;
+  margin: 1em auto;
   padding: 0;
   text-align: center;
   width: 50%;
-  margin: 0 auto;
 }
+
 
 hr:not(.plain):after {
     display: block;
@@ -123,7 +130,7 @@ hr:not(.plain):after {
     height: 10px;
     border: #E7EEF2 1px solid;
     position: relative;
-    bottom:.25em;
+    bottom: .25em;
     left: 50%;
     margin-left: -5px;
     background: #fff;
@@ -133,12 +140,7 @@ hr:not(.plain):after {
     box-shadow: #fff 0 0 0 5px;
 }
 
-.body-classy hr:not(.plain):after{
-  background: #fdfdfd;
-  box-shadow: #fdfdfd 0 0 0 5px;
 
-  bottom:.15em;
-}
 
 
 code, pre{
@@ -312,7 +314,7 @@ select{
 /* =============== CONTENT STYLES ================ */
 
 .content{
-  max-width: 750px;
+  max-width: 850px;
   margin: 0 auto;
 }
 
@@ -336,6 +338,16 @@ select{
   font-weight: 900;
 }
 
+.content.classy blockquote{
+  font-family: Alegreya;
+  font-size:1.1em;
+}
+
+.content.classy hr:not(.plain):after {
+    background-color: #fdfdfd;
+    box-shadow: #fdfdfd 0 0 0 5px;
+}
+
 .content.classy em, .content.classy i{
   font-family: Alegreya;
   font-style:italic;
@@ -343,24 +355,22 @@ select{
 }
 
 
-.content p:first-child:first-letter{
-  font-size:3.5rem;
-  margin:.3rem 0 0 0;
-  padding:0 .5rem 0 0;
+.content.classy h1 + p:first-letter,
+.content.classy > p:first-child:first-letter{
+  font-size:5rem;
+  margin:.7rem .5rem 0 0;
   height:5rem;
-  line-height:2rem;
+  line-height:1;
   float:left;
   color:slategray;
   font-weight: 900;
-  text-shadow: .2rem .2rem 0 #BBC7CC;
-  font-family: "Source Sans Pro";
   *line-height:1rem; /* IE7 Only */
-  -webkit-margin-before: .15em !important;
-  -webkit-margin-after: .15em !important;
+  -webkit-margin-before: 0 !important;
+  -webkit-margin-after: -.2em !important;
 }
 
-
-.content.classy p:first-child:first-line{
+.content.classy p:first-line{
+  text-transform: uppercase;
   -moz-font-feature-settings: "smcp=1";
   -moz-font-feature-settings: "smcp";
   -ms-font-feature-settings: "smcp";
