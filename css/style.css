@@ -140,7 +140,13 @@ hr:not(.plain):after {
     box-shadow: #fff 0 0 0 5px;
 }
 
+ul{
+  list-style-type: disc;
+}
 
+ol{
+  list-style-type: lower-alpha;
+}
 
 
 code, pre{
@@ -148,6 +154,7 @@ code, pre{
   line-height: 1.2;
   background-color: #eee;
   padding:1%;
+  margin-bottom:1em;
   font-size:.8em;
 }
 
@@ -245,6 +252,15 @@ code, pre{
 
 .content-input:focus{
   outline:1px orange;
+}
+
+::-moz-selection {
+       background-color: #dd4814;
+       color: #fff;
+}
+::selection {
+       background-color: slategray;
+       color: #fff;
 }
 
 .settings-bar{
