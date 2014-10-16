@@ -45,6 +45,10 @@ html{overflow-y:scroll}.has-overlay{overflow:hidden}.has-overlay>body{height:100
 
 /* ======================================= */
 
+html{
+  font-size:95%;
+}
+
 
 body{
   font-size: 18px;
@@ -351,7 +355,7 @@ select{
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   text-transform:uppercase;
   letter-spacing: .02em;
-  font-weight: 900;
+  font-weight: 900 !important;
 }
 
 .content.classy blockquote{
@@ -482,10 +486,22 @@ select{
 /* ======================= MEDIA QUERIES ======================== */
 
 @media print{
+
   body{
-    font-size:14px;
-    padding: 0 2cm;
     color:black;
+    padding: 0 2cm;
+  }
+
+  .content{
+    font-size:12pt;
+  }
+
+  hr{
+    color:#999;
+  }
+
+  hr:after{
+    display:none !important;
   }
 
   .settings{
