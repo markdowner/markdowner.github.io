@@ -40,7 +40,7 @@ function markdownHumanize() {
 
 
   contentDiv.innerHTML = humanizedContent;
-  contentDiv.innerHTML += "<hr><footer class='attribution'><br> Typeset with <a href='http://markdowner.github.io'> Markdowner</a></span>";
+  contentDiv.innerHTML += "<hr><footer class='attribution'><br><span onclick=\"document.querySelector('.attribution').style.display='none';\">Typeset with</span> <a href='http://markdowner.github.io'> Markdowner</a></span>";
   var settingsHTML = "<aside class='settings' id='settings'>";
   settingsHTML += "<a href='http://markdowner.github.io' class='back-button'>← GO BACK</a><br><br>";
   settingsHTML += "<p>Typesetting tone: <strong>" + tone + "</strong>.</p>";
