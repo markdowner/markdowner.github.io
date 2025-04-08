@@ -1281,6 +1281,21 @@ select {
   }
 }
 
+
+/* This section contributed by @skela,  “Do with this what you will ❤” (https://github.com/markdowner/markdowner.github.io/issues/5) */
+@media print {
+  body{
+    -webkit-print-color-adjust: exact; /*chrome & webkit browsers*/
+    print-color-adjust: exact; /*firefox & IE */
+  }
+  .pagebreak { page-break-before: always; } /* page-break-after works, as well */
+}
+
+.lang-python {
+	padding: 0;
+}
+/* end contributed section */
+
 /* Medium*/
 
 @media all and (min-width:640px) {
